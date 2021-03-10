@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+
+	font-family: sans-serif;
+}
+
+a, a:focus, a:visited, a:hover {
+  text-decoration: none;
+}
+
+header {
+	background-image: url('../images/index-header.jpg');
+	height: 40vw;
+	background-size: cover;
+}
+
+.header-top {
+	height: 10vw;
+	background: linear-gradient(to bottom, rgb(0 0 0 / 90%) 0%, rgb(0 0 0 / 70%) 40%, rgb(0 0 0 / 40%) 60%, rgb(0 0 0 / 0%) 100%);
+}
+
+.header-top__heading {
+	padding: 1.5vw 0 0 2vw;
+	margin: 0;
+	font-size: 3vw;
+	color: #FFF;
+
+	float: left;
+}
+
+.header-top__heading > a {
+	color: inherit;
+}
+
+.header-top__navbar {
+	float: right;
+}
+
+.header-top__navitem {
+	display: inline-block;
+	margin-right: 2vw;
+	padding: 2.5vw 1.5vw;
+	color: #FFF;
+	font-size: 1.5vw;
+}
+
+.header-top__navitem:hover {
+	background: linear-gradient(to bottom, rgb(255 255 255 / 50%) 0%, rgb(255 255 255 / 40%) 40%, rgb(255 255 255 / 0%) 100%);
+}
