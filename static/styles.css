@@ -47,3 +47,74 @@ header {
 .header-top__navitem:hover {
 	background: linear-gradient(to bottom, rgb(255 255 255 / 50%) 0%, rgb(255 255 255 / 40%) 40%, rgb(255 255 255 / 0%) 100%);
 }
+
+.main-visit {
+    padding: 7vw 12vw;
+	display: flex;
+	flex-direction: row;
+}
+
+.main-visit__art-block {
+}
+
+.main-visit__art-block_img {
+    width: 20vw;
+}
+
+.main-visit__info-block {
+    font-size: 1.6vw;
+    font-weight: 600;
+    margin: 1.4vw 0 0 15vw;
+	width: 50vw;
+}
+
+.main-education {
+    padding: 7vw 12vw;
+    background: #000;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.main-education__art-block_img {
+    width: 20vw;
+}
+
+.main-education__info-block {
+	margin-right: 20vw;
+    color: #FFF;
+    font-size: 1.4vw;
+    font-weight: 600;
+
+}
+
+.main-esse {
+	padding: 7vw 25vw;
+}
+
+.main-esse__text-block {
+	font-size: 1.5vw;
+	line-height: 2.2vw;
+	font-weight: 600;
+}
+
+.main-esse__author-block {
+	display: inline-block;
+	font-size: 1.5vw;
+	margin-top: 1.5vw;
+	margin-left: 25vw;
+	text-align: right;
+}
+
+footer  {
+	background-color: #000000;
+	padding: 4vw 15vw 7vw;
+	color: #FFFFFF;
+	font-size: 1.5vw;
+	font-weight: 600;
+}
+
+.footer__texts {
+	display: flex;
+	margin-top: 2vw;
+	justify-content: space-between;
+}
